@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Info</title>
+    <style>
+      [type="text"] {
+        margin-left: 150px;
+      }
+      textarea {
+        margin-left: 150px;
+      }
+      [type="file"] {
+        margin-left: 150px;
+      }
+      #age {
+        margin-left: 150px;
+      }
+      #Hobbies {
+        margin-left: 50px;
+      }
+      #cars {
+        margin-left: 50px;
+      }
+      #Transport {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Your address</legend>
+        <table>
+          <tr>
+            <td>First name</td>
+            <td><input type="text" name="Fname" id="Fname" /></td>
+          </tr>
+          <tr>
+            <td>Last name</td>
+            <td><input type="text" name="Lname" id="Lname" /></td>
+          </tr>
+          <tr>
+            <td>Street</td>
+            <td><input type="text" name="Lname" id="Lname" /></td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td><input type="text" name="Lname" id="Lname" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Additional Details</legend>
+        <table>
+          <tr>
+            <td>Biography</td>
+            <td>
+              <textarea
+                name="Biography"
+                id="Biography"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>Image</td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td>Age Group</td>
+            <td>
+              <select name="age" id="age">
+                <option value="0 to 9 years">0 to 9 years</option>
+                <option value="10 to 14 years">10 to 14 years</option>
+                <option value="15 to 20 years">15 to 20 years</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interest</legend>
+        <table>
+          <tr>
+            <td>Hobbies</td>
+            <td>
+              <select name="Hobbies" id="Hobbies" multiple>
+                <option value="Playing Soccer">Playing Soccer</option>
+                <option value="Playing Soccer">Dancing</option>
+                <option value="Playing Soccer">Gardening</option>
+                <option value="Playing Soccer">Watching Movies</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Favourite cars?</td>
+            <td>
+              <select name="cars" id="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Benz">Benz</option>
+                <option value="corolla">corolla</option>
+                <option value="Toyota">corolla</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Favourite Public Transport?</td>
+            <td>
+              <select
+                name="Favourite Public Transport?"
+                id="Transport"
+                multiple>
+                    <option value="Ground">Ground</option>
+                    <option value="Train">Train</option>
+                    <option value="Bus">Bus</option>
+                <option value="Ground">Water</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootcamp.org</title>
+    <style>
+      #Proficiency {
+        width: 86vh;
+      }
+      body {
+        background-image: url("images/coding-javascript-programming-computer-screen.jpg");
+        background-size: cover;
+        height: 100px;
+      }
+      .form-container {
+        padding: 50px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 100px;
+        height: 30rem;
+      }
+      .page-container {
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 style="text-align: center">Bootcamp Registeration Forms</h1>
+      <p style="text-align: center">
+        Complete this form to express your interest in the upcoming web
+        development bootcamp
+      </p>
+      <form action="#">
+        <fieldset>
+          <legend>Contact Details</legend>
+          Name
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Ophy Boamah"
+            size="100"
+          /><br /><br />
+          Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ob2@hotmail.com"
+            size="100"
+          /><br /><br />
+          Phone
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="+233 2000001212"
+            size="100"
+          /><br />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Personal Information</legend>
+          Birth Date
+          <input type="date" name="dob" id="BD" size="200" /><br /><br />
+          Gender ? <input type="text" size="100" /><br /><br />
+          Proficiency <input type="range" name="Proficiency" id="Proficiency" />
+        </fieldset>
+        <br />
+        <input type="checkbox" name="" id="" /> I have read and agree to the
+        terms and conditions <br />
+        <br />
+        <input
+          style="
+            margin-left: 550px;
+            background-color: rgb(67, 133, 205);
+            color: aliceblue;
+          "
+          type="submit"
+          value="submit"
+        />
+      </form>
+    </div>
+  </body>
+</html>
